@@ -6,6 +6,7 @@ function MyHelmet({ title, description }) {
     <Helmet>
       {title ? <title>{title} | UrbanGarden</title> : null}
       {description ? <meta name="description" content={description} /> : null}
+      <style>{'body { background-color: black; }'}</style>
     </Helmet>
   )
 }

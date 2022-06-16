@@ -5,7 +5,7 @@ image: /img/chuttersnap-ifmqouokaoa-unsplash.jpg
 heading: Matt Blanco
 subheading: Software Engineer
 about:
-  heading: Who we are
+  heading: Just hanging out
   description: Our team of architects, gardeners and enginners is working with
     clients all over the world to transform urban spaces with the best nature
     provides.

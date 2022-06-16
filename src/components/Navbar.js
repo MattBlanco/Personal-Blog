@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const NAVLINK_CLASSES =
-  "my-1 py-3 px-3 text-center font-medium text-gray-600 border-b-4 border-white hover:border-green-700 md:mx-2 md:my-0"
+  "my-1 py-3 px-3 text-center font-medium text-white hover:text-yellow border-b-4 border-white hover:border-yellow-300 md:mx-2 md:my-0"
 
 // this link will be active when itself or deeper routes
 // are current
@@ -12,7 +12,7 @@ const NAVLINK_CLASSES =
 // the same as the href.
 const isActive = ({ isCurrent }) => {
   return isCurrent
-    ? { className: NAVLINK_CLASSES + " text-green-700 border-green-700" }
+    ? { className: NAVLINK_CLASSES + " text-yellow-300 border-yellow-300" }
     : {}
 }
 
@@ -30,7 +30,7 @@ const ExactNavLink = ({ children, ...rest }) => {
 // are current
 const isPartiallyActive = ({ isPartiallyCurrent }) => {
   return isPartiallyCurrent
-    ? { className: NAVLINK_CLASSES + " text-green-700 border-green-700" }
+    ? { className: NAVLINK_CLASSES + " text-yellow-300 border-yellow-300" }
     : {}
 }
 
@@ -48,7 +48,7 @@ const Navbar = ({ className }) => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <nav className={`fixed top-0 w-full z-30 bg-white shadow-xl ${className}`}>
+    <nav className={`fixed top-0 w-full z-30 bg-black shadow-xl ${className}`}>
       <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between py-2">
           <Link className="flex items-center gap-1" to="/">

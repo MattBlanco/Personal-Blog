@@ -53,8 +53,8 @@ const IndexPageTemplate = ({
       {/* Featured projects */}
       <Container>
         <div className="flex justify-between items-baseline">
-          <SectionHeading>Our projects from all over the world</SectionHeading>
-          <Link className="text-green-700 underline hover:text-green-800" to="/projects">
+          <SectionHeading>Some of my Work</SectionHeading>
+          <Link className="text-white underline hover:text-white" to="/projects">
             View all
           </Link>
         </div>
@@ -66,7 +66,7 @@ const IndexPageTemplate = ({
       {/* About section */}
       <TextImageSplit image={about.image}>
         <SectionHeading>{about.heading}</SectionHeading>
-        <p className="mt-2 text-gray-600 dark:text-gray-300">
+        <p className="mt-2 text-white">
           {about.description}
         </p>
         <SecondaryButton to={about.button.url} className="mt-6 lg:mt-10">

@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
   const { scrollY, scrollDirection } = useScroll()
 
   return (
-    <div className="bg-black">
+    <div className="bg-black-100">
       <Helmet>
         <html lang="en" />
         <title>{title} | UrbanGarden</title>

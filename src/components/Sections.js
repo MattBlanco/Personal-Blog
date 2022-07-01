@@ -20,7 +20,7 @@ export const Container = ({ className, children }) => {
  */
 export const SectionHeading = ({ children }) => {
   return (
-    <h2 className="text-2xl font-medium text-white sm:text-3xl lg:text-4xl">
+    <h2 className="text-2xl font-medium text-stone-200 sm:text-3xl lg:text-4xl">
       {children}
     </h2>
   )

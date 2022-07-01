@@ -30,10 +30,10 @@ const IndexPageTemplate = ({
 
             <div className="relative z-20 mx-auto lg:max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="text-center max-w-md mx-auto lg:max-w-lg lg:mx-0 lg:text-left">
-                <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
+                <h1 className="text-3xl font-bold text-stone-200 sm:text-4xl lg:text-5xl">
                   {heading}
                 </h1>
-                <p className="mt-2 text-white sm:mt-4 lg:mt-6 lg:text-xl">
+                <p className="mt-2 text-stone-200 sm:mt-4 lg:mt-6 lg:text-xl">
                   {subheading}
                 </p>
               </div>
@@ -54,7 +54,7 @@ const IndexPageTemplate = ({
       <Container>
         <div className="flex justify-between items-baseline">
           <SectionHeading>Some of my Work</SectionHeading>
-          <Link className="text-white underline hover:text-white" to="/projects">
+          <Link className="text-stone-200 underline hover:text-white" to="/projects">
             View all
           </Link>
         </div>
@@ -66,7 +66,7 @@ const IndexPageTemplate = ({
       {/* About section */}
       <TextImageSplit image={about.image}>
         <SectionHeading>{about.heading}</SectionHeading>
-        <p className="mt-2 text-white">
+        <p className="mt-2 text-stone-200">
           {about.description}
         </p>
         <SecondaryButton to={about.button.url} className="mt-6 lg:mt-10">

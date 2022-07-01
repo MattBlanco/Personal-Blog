@@ -10,37 +10,37 @@ const Footer = () => {
           <div className="mt-6 lg:mt-0 lg:flex-1">
             <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
               <div>
-                <h3 className="text-white uppercase">
+                <h3 className="text-stone-200 uppercase">
                   About
                 </h3>
                 <Link
                   to="/"
-                  className="block mt-2 text-sm text-white hover:underline"
+                  className="block mt-2 text-sm text-stone-200 hover:underline"
                 >
                   Instagram
                 </Link>
                 <Link
                   to="/"
-                  className="block mt-2 text-sm text-white hover:underline"
+                  className="block mt-2 text-sm text-stone-200 hover:underline"
                 >
                   Community
                 </Link>
                 <Link
                   to="/contact"
-                  className="block mt-2 text-sm text-white hover:underline"
+                  className="block mt-2 text-sm text-stone-200 hover:underline"
                 >
                   Contact Me
                 </Link>
               </div>
 
               {/* <div>
-                <h3 className="text-white">
+                <h3 className="text-stone-200">
                   Contact
                 </h3>
-                <span className="block mt-2 text-sm text-white hover:underline">
+                <span className="block mt-2 text-sm text-stone-200 hover:underline">
                   +1 526 654 8965
                 </span>
-                <span className="block mt-2 text-sm text-white hover:underline">
+                <span className="block mt-2 text-sm text-stone-200 hover:underline">
                   example@email.com
                 </span>
               </div> */}
@@ -51,7 +51,7 @@ const Footer = () => {
         <hr className="h-px my-6 bg-gray-300 border-none dark:bg-gray-700" />
 
         <div>
-          <p className="text-center text-white">
+          <p className="text-center text-stone-200">
             © All rights reserved
           </p>
         </div>

@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
     <div className="bg-black-100">
       <Helmet>
         <html lang="en" />
-        <title>{title} | UrbanGarden</title>
+        <title>{title} | Matt Blanco</title>
         <meta name="description" content={description} />
       </Helmet>
       <div className="flex flex-col h-screen justify-between">

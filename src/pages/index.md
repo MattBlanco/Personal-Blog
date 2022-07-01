@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Connecting People with Nature
-image: /img/chuttersnap-ifmqouokaoa-unsplash.jpg
+title: Home
+image: /img/Image_2.jpg
 heading: Matt Blanco
 subheading: Software Engineer
 about:
@@ -10,7 +10,7 @@ about:
     clients all over the world to transform urban spaces with the best nature
     provides.
   image:
-    image: /img/leon-tho1_oukbg0-unsplash.jpg
+    image: /img/Image_2.jpg
     alt: people working in agency
   button:
     url: /about

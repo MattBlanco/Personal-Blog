@@ -3,9 +3,9 @@ const siteUrl =
 
 module.exports = {
   siteMetadata: {
-    title: "UrbanGarden",
+    title: "Matt Blanco",
     description:
-      "Transforming and enriching our urban environments with green living spaces",
+      "Software Engineer",
     siteUrl: "https://objective-thompson-fe2703.netlify.app",
   },
   plugins: [

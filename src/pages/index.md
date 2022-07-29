@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Home
-image: /img/Image_2.jpg
+image: /img/chuttersnap-ifmqouokaoa-unsplash.jpg
 heading: Matt Blanco
 subheading: Software Engineer
 about:

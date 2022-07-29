@@ -50,6 +50,17 @@ const IndexPageTemplate = ({
         </div>
       </div>
 
+      {/* About section */}
+      <TextImageSplit image={about.image}>
+        <SectionHeading>{about.heading}</SectionHeading>
+        <p className="mt-2 text-stone-200">
+          {about.description}
+        </p>
+        <SecondaryButton to={about.button.url} className="mt-6 lg:mt-10">
+          {about.button.label}
+        </SecondaryButton>
+      </TextImageSplit>
+
       {/* Featured projects */}
       <Container>
         <div className="flex justify-between items-baseline">
@@ -62,17 +73,6 @@ const IndexPageTemplate = ({
           <CardSet posts={posts} />
         </div>
       </Container>
-
-      {/* About section */}
-      <TextImageSplit image={about.image}>
-        <SectionHeading>{about.heading}</SectionHeading>
-        <p className="mt-2 text-stone-200">
-          {about.description}
-        </p>
-        <SecondaryButton to={about.button.url} className="mt-6 lg:mt-10">
-          {about.button.label}
-        </SecondaryButton>
-      </TextImageSplit>
     </div>
   )
 }
